@@ -48,7 +48,7 @@ class pcapReader(object):
 
                     if hasattr(p, 'tcp'):
                         print(f"Src IP: {src_ip}")
-                        print(f"Src IP: {dst_ip}")
+                        print(f"Dst IP: {dst_ip}")
                         print(f"Src Port: {src_port}")
                         print(f"Dst Port: {dst_port}")
                         if protocol == 6:
